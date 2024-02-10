@@ -21,3 +21,13 @@ variable "availability_zones" {
   description = "Availability zones for subnets"
   type        = list(string)
 }
+
+ 
+
+  variable "access_key" {
+  description = "access key"
+}
+
+  variable "secret_key" {
+  description = "secrete key"
+}
